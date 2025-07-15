@@ -1,21 +1,11 @@
-<header class="site-header" role="banner">
-  
-
-  <div class="wrapper">
-    <h1 class="site-title">
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    </h1>
-
+<header class="site-header" role="banner" style="padding: 20px 40px;">
+  <div class="nav-wrapper">
+    <a class="site-title" href="/" style="text-decoration: none; color: black;">Hari Stoyanov</a>
     <nav class="site-nav">
       <ul>
-        {% for item in site.navbar %}
-          <li>
-            <a href="{{ item.url | relative_url }}" 
-               {% if page.url == item.url or page.url == item.url | remove: '/' %}class="active"{% endif %}>
-                {{ item.title }}
-            </a>
-          </li>
-        {% endfor %}
+        <li><a href="/" class="{% if page.title == 'Home' %}active{% endif %}">Home</a></li>
+        <li><a href="/research/" class="{% if page.title == 'Research' %}active{% endif %}">Research</a></li>
+        <li><a href="/personal/" class="{% if page.title == 'Personal' %}active{% endif %}">Personal</a></li>
       </ul>
     </nav>
   </div>
