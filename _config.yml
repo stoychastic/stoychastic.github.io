@@ -1,0 +1,13 @@
+title: Stoychastic's Website
+description: Welcome to my professional site.
+theme: minima
+plugins:
+  - jekyll-feed
+
+navbar:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Personal
+    url: /personal/
