@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-# Welcome to Stoychastic's Website
+# Welcome to my website!
 
-Thank you for visiting. I am a scientist passionate about research and discovery.  
-Use the navigation tabs above to explore my research and personal interests.
+My name is Hari Stoyanov. 
