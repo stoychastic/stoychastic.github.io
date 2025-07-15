@@ -1,4 +1,22 @@
 <header class="site-header" role="banner">
+  <style>
+    .site-nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+    .site-nav ul li a {
+      text-decoration: none;
+      color: #0366d6;
+      font-weight: 600;
+    }
+    .site-nav ul li a.active {
+      text-decoration: underline;
+    }
+  </style>
+
   <div class="wrapper">
     <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
